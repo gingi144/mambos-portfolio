@@ -3,175 +3,420 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mambo Stallone- Portfolio</title>
+    <title>Mambo Stallone | IT Specialist & Developer</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Mambo Stallone</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="container">
+            <a href="#" class="logo">M<span>S</span></a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, I'm</h3>
-            <h1>Mambo Stallone</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p><p>Experienced IT professional with a strong background in software development, web technologies, and cloud computing. I specialize in building responsive websites, optimizing backend systems, and supporting digital transformation. I am passionate about using technology to solve problems, improve efficiency, and deliver results that make an impact.</p>
-            .</p>
-            <div class="social-media">
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="tel:+254114811180"><i class='bx bxl-whatsapp'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="https://www.linkedin.com/in/mambo-stallone-645418262/"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-youtube'></i></a>
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <div class="badge">Hello, I'm</div>
+                    <h1>Mambo Stallone</h1>
+                    <h2 class="dynamic-title">IT Specialist & <span class="multiple-text"></span></h2>
+                    <p class="home-description">Experienced IT professional with expertise in full-stack development, cloud solutions, and digital transformation. Passionate about creating innovative solutions that drive efficiency and make a measurable impact.</p>
+                    <div class="cta-buttons">
+                        <a href="MAMBO STALLONE (1).pdf" class="btn btn-primary">
+                            <i class='bx bx-download'></i> Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class='bx bx-chat'></i> Let's Connect
+                        </a>
+                    </div>
+                    <div class="social-media">
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="tel:+254114811180" class="social-icon" aria-label="WhatsApp">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mambo-stallone-645418262/" class="social-icon" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="YouTube">
+                            <i class='bx bxl-youtube'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="image-wrapper">
+                        <img src="gigs1.jpg" alt="Mambo Stallone">
+                        <div class="image-glow"></div>
+                        <div class="tech-stack">
+                            <span class="tech-item">HTML/CSS</span>
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">PHP</span>
+                            <span class="tech-item">AWS</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <a href="MAMBO STALLONE (1).pdf" class="btn">Download CV</a>
-        </div>
-        <div class="home-img">
-            <img src="gigs1.jpg" class="oval-img" alt="Mambo Stallone">
+            <div class="scroll-indicator">
+                <a href="#about">
+                    <i class='bx bx-chevron-down'></i>
+                </a>
+            </div>
         </div>
     </section>
 
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="gigs1.jpg" alt="Mambo Stallone">
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3><h3>IT Student & Aspiring Tech Innovator</h3>
-        </h3>
-            <p>Hi, I’m Mambo Stallone, a third-year student pursuing a Bachelor’s degree in Information Technology at Jomo Kenyatta University of Agriculture and Technology. I’m passionate about using technology to solve real-world problems and create innovative digital solutions.</p>
-            <p>My interests include web development, data analysis, and system design. I enjoy learning new technologies and working on personal projects that challenge my skills and creativity. My goal is to become a versatile tech professional who can contribute to both technical and business aspects of a company.</p>
-            <p>Click more to see my first project that I worked on</p>
-            <a href="https://gingi144.github.io/dashboard/" class="btn">Read More</a>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <p class="section-subtitle">Get to know more about my journey and passion</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="gigs1.jpg" alt="Mambo Stallone">
+                        <div class="experience-badge">
+                            <span>3+ Years</span>
+                            <small>Experience</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>IT Student & Aspiring Tech Innovator</h3>
+                    <p>Currently pursuing a Bachelor's degree in Information Technology at Jomo Kenyatta University of Agriculture and Technology, I'm dedicated to bridging the gap between theoretical knowledge and practical application.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class='bx bx-code-alt'></i>
+                            <h4>Web Development</h4>
+                            <p>Building responsive, user-friendly web applications</p>
+                        </div>
+                        <div class="highlight">
+                            <i class='bx bx-cloud'></i>
+                            <h4>Cloud Solutions</h4>
+                            <p>Implementing scalable cloud infrastructure</p>
+                        </div>
+                        <div class="highlight">
+                            <i class='bx bx-data'></i>
+                            <h4>Data Systems</h4>
+                            <p>Designing efficient database architectures</p>
+                        </div>
+                    </div>
+                    
+                    <a href="https://gingi144.github.io/dashboard/" class="btn btn-primary">
+                        <i class='bx bx-link-external'></i> View My Projects
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span></h2>
-        <div class="skills-container">
-            <div class="skill">
-                <h3>HTML, CSS & JavaScript</h3>
-                <div class="progress-bar">
-                    <div class="progress Business Process Optimization" data-width="90%"></div>
-                    <span>90%</span>
-                </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical <span>Skills</span></h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
             </div>
-            <div class="skill">
-                <h3>PHP & MySQL</h3>
-                <div class="progress-bar">
-                    <div class="progress lesson-planning" data-width="85%"></div>
-                    <span>85%</span>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class='bx bxl-html5'></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript, Responsive Design</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                        <span class="percentage">90%</span>
+                    </div>
                 </div>
-            </div>
-            <div class="skill">
-                <h3>C++ & Object-Oriented Programming</h3>
-                <div class="progress-bar">
-                    <div class="progress classroom-management" data-width="88%"></div>
-                    <span>88%</span>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class='bx bx-server'></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>PHP, MySQL, REST APIs, System Architecture</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                        <span class="percentage">85%</span>
+                    </div>
                 </div>
-            </div>
-            <div class="skill">
-                <h3>Linux & Terminal Commands</h3>
-                <div class="progress-bar">
-                    <div class="progress team-collaboration" data-width="92%"></div>
-                    <span>92%</span>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class='bx bxl-c-plus-plus'></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>C++, OOP, Algorithms, Data Structures</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 88%;"></div>
+                        </div>
+                        <span class="percentage">88%</span>
+                    </div>
                 </div>
-            </div>
-            <div class="skill">
-                <h3>Cloud Platforms (AWS, Firebase, Netlify)</h3>
-                <div class="progress-bar">
-                    <div class="progress patience-compassion" data-width="95%"></div>
-                    <span>95%</span>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class='bx bx-terminal'></i>
+                    </div>
+                    <h3>Linux & DevOps</h3>
+                    <p>Linux CLI, Bash Scripting, Git, CI/CD</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 92%;"></div>
+                        </div>
+                        <span class="percentage">92%</span>
+                    </div>
                 </div>
-            </div>
-            <div class="skill">
-                <h3>Cloud Computing Fundamentals</h3>
-                <div class="progress-bar">
-                    <div class="progress creative-activities" data-width="87%"></div>
-                    <span>87%</span>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class='bx bx-cloud'></i>
+                    </div>
+                    <h3>Cloud Platforms</h3>
+                    <p>AWS, Firebase, Netlify, Cloud Deployment</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%;"></div>
+                        </div>
+                        <span class="percentage">95%</span>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class='bx bx-chip'></i>
+                    </div>
+                    <h3>Cloud Computing</h3>
+                    <p>Virtualization, Containerization, Networking</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 87%;"></div>
+                        </div>
+                        <span class="percentage">87%</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section class="experience" id="experience">
-        <h2 class="heading">My <span>Experience</span></h2>
-        <div class="experience-container">
-            <div class="experience-box">
-                <i class='bx bx-laptop'></i>
-                <h3>Academic Projects</h3>
-                <p><strong>JKUAT | 2023 – Present</strong></p>
-                <ul>
-                    <li>Designed and developed a responsive high school website using HTML, CSS, and PHP to display student results and fee balances from a MySQL database.</li>
-                    <li>Created a farm management system to track crop data and automate reporting using a simple frontend and backend logic.</li>
-                    <li>Built a Wi-Fi payment reminder app prototype that sends alerts via SMS and email before disconnection.</li>
-                </ul>
-                <a href="academic-projects.html" class="btn">View Details</a>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span>Experience</span></h2>
+                <p class="section-subtitle">Professional journey and projects</p>
             </div>
-            <div class="experience-box">
-                <i class='bx bx-code'></i>
-                <h3>Freelance & Personal Projects</h3>
-                <p><strong>Remote | 2023 – Present</strong></p>
-                <ul>
-                    <li>Developed personal portfolio websites using HTML, CSS, and JavaScript.</li>
-                    <li>Assisted local businesses in setting up basic websites for showcasing services and contact info.</li>
-                    <li>Explored WordPress and GitHub to manage content and code versions.</li>
-                </ul>
-                <a href="freelance-projects.html" class="btn">View Details</a>
-            </div>
-            <div class="experience-box">
-                <i class='bx bx-group'></i>
-                <h3>Team-Based University Work</h3>
-                <p><strong>JKUAT Tech Labs | 2023 – 2026</strong></p>
-                <ul>
-                    <li>Worked in student groups to plan, build, and present end-of-semester system demos using Agile methods.</li>
-                    <li>Used Trello, Notion, and Google Workspace for project planning and team collaboration.</li>
-                    <li>Presented group findings to faculty panels and received positive feedback on teamwork and innovation.</li>
-                </ul>
+            
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div class="timeline-icon">
+                            <i class='bx bx-laptop'></i>
+                        </div>
+                        <div class="timeline-title">
+                            <h3>Academic Projects</h3>
+                            <span class="timeline-period">JKUAT | 2023 – Present</span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <ul class="timeline-list">
+                            <li>Developed responsive high school website with PHP/MySQL backend</li>
+                            <li>Created farm management system with automated reporting</li>
+                            <li>Built Wi-Fi payment reminder app prototype</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>HTML/CSS</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="academic-projects.html" class="btn btn-outline">
+                            View Case Study <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
                 
-                <a href="team-work.html" class="btn">View Details</a>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div class="timeline-icon">
+                            <i class='bx bx-code'></i>
+                        </div>
+                        <div class="timeline-title">
+                            <h3>Freelance & Personal Projects</h3>
+                            <span class="timeline-period">Remote | 2023 – Present</span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <ul class="timeline-list">
+                            <li>Portfolio website development and optimization</li>
+                            <li>Business website setup and maintenance</li>
+                            <li>WordPress customization and GitHub management</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>WordPress</span>
+                            <span>Git</span>
+                            <span>Web Design</span>
+                            <span>SEO</span>
+                        </div>
+                        <a href="freelance-projects.html" class="btn btn-outline">
+                            View Projects <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div class="timeline-icon">
+                            <i class='bx bx-group'></i>
+                        </div>
+                        <div class="timeline-title">
+                            <h3>Team-Based University Work</h3>
+                            <span class="timeline-period">JKUAT Tech Labs | 2023 – 2026</span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <ul class="timeline-list">
+                            <li>Agile project development with student teams</li>
+                            <li>Collaboration using modern project management tools</li>
+                            <li>Faculty presentations and system demonstrations</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Agile</span>
+                            <span>Trello</span>
+                            <span>Notion</span>
+                            <span>Teamwork</span>
+                        </div>
+                        <a href="team-work.html" class="btn btn-outline">
+                            View Details <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <p class="section-subtitle">Let's discuss your project or opportunity</p>
             </div>
-            <div class="input-box">
-                <input type="tel" placeholder="Mobile Number">
-                <input type="text" placeholder="Subject">
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class='bx bx-envelope'></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>Stallonemambo@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class='bx bx-phone'></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+254 114 811 180</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class='bx bx-map'></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class='bx bx-time'></i>
+                        <div>
+                            <h4>Available</h4>
+                            <p>Mon - Fri, 9AM - 6PM EAT</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" placeholder="Mobile Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your message..." rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class='bx bx-send'></i> Send Message
+                    </button>
+                </form>
             </div>
-            <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-        <div class="contact-info">
-            <p><i class='bx bx-envelope'></i> Stallonemambo@gmail.com</p>
-            <p><i class='bx bx-phone'></i> +254114811180</p>
-            <p><i class='bx bx-map'></i> Nairobi, Kenya</p>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2025 by Mambo Stallone| All Rights Reserved.</p>
-        </div>
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Mambo<span>Stallone</span></a>
+                    <p>Building digital solutions that make an impact</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="tel:+254114811180" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.linkedin.com/in/mambo-stallone-645418262/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mambo Stallone. All rights reserved.</p>
+                <a href="#home" class="back-to-top">
+                    <i class='bx bx-chevron-up'></i>
+                </a>
+            </div>
         </div>
     </footer>
 
